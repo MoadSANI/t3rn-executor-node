@@ -239,7 +239,7 @@ install_node() {
     export EXECUTOR_PROCESS_ORDERS=true
     export EXECUTOR_PROCESS_CLAIMS=true
     export EXECUTOR_PROCESS_BIDS_ENABLED=true
-    export EXECUTOR_MAX_L3_GAS_PRICE=20000
+    export EXECUTOR_MAX_L3_GAS_PRICE=1000
     export PRIVATE_KEY_LOCAL=$PRIVATE_KEY_LOCAL
     export ENABLED_NETWORKS='arbitrum-sepolia,base-sepolia,blast-sepolia,optimism-sepolia,l1rn'
    
